@@ -6,12 +6,4 @@ public class Main extends ParkingLot {
         ParkingLot mensajero = new ClasePrecioPorDia();
         mensajero.MenuEleccion();
     }
-
-    @Override
-    public int PrecioPorDia(){
-        if(precioNuevo > 0){
-            precioPorDia = precioNuevo;
-        }
-        return precioPorDia;
-    }
 }
